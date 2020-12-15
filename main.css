@@ -1,0 +1,38 @@
+.btn-primary{
+    background-color: #c229ff;
+    border: #c229ff;
+    color: black;
+}
+
+.navbar{
+    background-color: #323131;
+    
+}
+
+#container1{
+    background-image: url(DarkPsy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container h1{
+    font-weight: bold;
+    color: #fff;
+}
+
+.container p{
+    font-weight: bold;
+    color: #fff;
+}
+
+.card{
+    background-color: #000;
+}
+
+.card-img{
+    background-image: url(Morfin.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
