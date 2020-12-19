@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="bootstrap.js"></script>
+  <script src="bootstrap.bundle.js"></script>
+  <title>MyDrugs</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="main.css">
+
+  <style>
+    @font-face {
+      font-family: ElpyFont;
+      src: url(Thuner.otf);
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#" style="font-family: ElpyFont; font-size: 2em; color: white;">
+        <p style="display: inline-block; color: #c229ff;">My</p>Drugs<p
+          style="display: inline-block; font-size: small;">.com</p>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Opium
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#Morphine">Morphine</a>
+              <a class="dropdown-item" href="#Heroin">Heroin</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#Papaverin">Papaverin</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Shipping.html" role="button" aria-haspopup="true" aria-expanded="false">
+              Shipping
+            </a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">FAQ</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+
+  <main role="main" class="bg-drugDark">
+    <div class="fullW">
+    <h1 class="faqTitle">FAQ</h1>
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              How to contact us
+            </button>
+          </h2>
+        </div>
+    
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            If you want to contact us, please do it by emailing NoDrugsHere@domail.com.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Is it possible to get a sample?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            NO, we do not let customers get pre product samples. But we do special offers if you buy a lot.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Is our product safe?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            Yes, we prioritise our customers safety, so we only hire the best of opium extractors.
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="alert alert-danger" role="alert">
+        Make sure to always use a VPN when buying our products!
+      </div>
+    </div>
+
+    <div class="media">
+      <img src="/Images/bbcImage.png" width="140px" height="140px" class="mr-3" alt="...">
+      <div class="media-body">
+        <h5 class="mt-0">We have been in the news for the most popular drugsite ever!</h5>
+        We made it to BBC News, Thanks to all of you! We will be able to evolve to a bigger company because of you!
+      </div>
+    </div>
+    
+  </div>
+  </main>
+
+  <footer style="height: 20vh; display: flex; align-items: center;" class="textfield">
+    <div class="container">
+      <p class="float-right">
+        <a href="#">Back to top</a>
+      </p>
+      <div>
+        <p>No drugs here, it is only a proof of concept. But please feel free to share the beatiful concept.</p>
+        <p>Want drugs? Don't! Go to school kids! <a href="https://www.coolmathgames.com/">Visit the wesite coolmathgames
+            instead!</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

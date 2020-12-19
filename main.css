@@ -11,7 +11,7 @@
 
 
 #container1{
-    background-image: url(DarkPsy.jpg);
+    background-image: url(/Images/DarkPsy.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -36,7 +36,7 @@
 }
 
 .card-img{
-    background-image: url(Morfin.jpg);
+    background-image: url(/Images/Morfin.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -64,4 +64,40 @@
 
 main{
     background-color: rgb(26, 26, 26);
+}
+
+.card{
+    color: #fff;
+}
+.card button{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.faqTitle{
+    color: #fff;
+    text-align: center;
+}
+
+.fullW{
+    height: 60vh;
+    margin: auto;
+}
+
+.spinners div{
+    margin: auto;
+}
+
+.alert{
+    text-align: center;
+}
+
+
+#shippingFooter{
+    margin-top: 50px;
+}
+
+.media{
+    
+    color: #fff;
 }

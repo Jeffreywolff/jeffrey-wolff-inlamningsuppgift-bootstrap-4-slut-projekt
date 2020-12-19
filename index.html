@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="bootstrap.js"></script>
-<script src="bootstrap.bundle.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="bootstrap.js"></script>
+  <script src="bootstrap.bundle.js"></script>
   <title>MyDrugs</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,245 +18,293 @@
 
   <style>
     @font-face {
-      font-family:ElpyFont;
+      font-family: ElpyFont;
       src: url(Thuner.otf);
     }
-
-
   </style>
-  
+
 </head>
+
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#" style="font-family: ElpyFont; font-size: 2em; color: white;"> <p style="display: inline-block; color: #c229ff;">My</p>Drugs<p style="display: inline-block; font-size: small;">.com</p></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Opium
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#Morphine">Morphine</a>
-                <a class="dropdown-item" href="#Heroin">Heroin</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#Papaverin">Papaverin</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Shipping.html" role="button" aria-haspopup="true" aria-expanded="false">
-                Shipping
-              </a>
-              
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-          
-        </div>
-      </nav>
-    </header>
-    
-      <main role="main" class="bg-drugDark">
+      <a class="navbar-brand" href="#" style="font-family: ElpyFont; font-size: 2em; color: white;">
+        <p style="display: inline-block; color: #c229ff;">My</p>Drugs<p
+          style="display: inline-block; font-size: small;">.com</p>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <section class="jumbotron text-center" id="container1">
-          <div class="container" >
-            <h1>Euforic? Relaxed? Focus?</h1>
-            <p class="lead">Our premium drugs is made to your desire and you will find a new world of happiness! </p>
-            <p>
-              <a href="#" class="btn btn-primary my-1">I feel lucky.</a>
-            </p>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Opium
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#Morphine">Morphine</a>
+              <a class="dropdown-item" href="#Heroin">Heroin</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#Papaverin">Papaverin</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Shipping.html" role="button" aria-haspopup="true" aria-expanded="false">
+              Shipping
+            </a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">FAQ</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+
+  <main role="main" class="bg-drugDark">
+
+    <section class="jumbotron text-center" id="container1">
+      <div class="container">
+        <h1>Euforic? Relaxed? Focus?</h1>
+        <p class="lead">Our premium drugs is made to your desire and you will find a new world of happiness! </p>
+        <p>
+          <a href="#" class="btn btn-primary my-1">I feel lucky.</a>
+        </p>
+      </div>
+    </section>
+
+    <div class="album py-5 bg-drugDark">
+      <div class="container">
+
+        <div class="row">
+          <div id="Morphine" class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="/Images/Morfin2.jpg" width="100%" height="225"
+                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em"></text></img>
+              <div class="card-body">
+                <p class="card-text">Morphine<br>The finest most refined Morphine you can find.<br>
+                  It is extracted by our proffesional Opium Extractors. <br>
+                  Pureness 99.9%
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">50$</button>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
           </div>
-        </section>
-      
-        <div class="album py-5 bg-drugDark">
-          <div class="container">
-      
-            <div class="row">
-              <div id="Morphine" class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <img class="bd-placeholder-img card-img-top" src="Morfin2.jpg" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
-                  <div class="card-body">
-                    <p class="card-text">Morphine<br>The finest most refined Morphine you can find.<br> 
-                    It is extracted by our proffesional Opium Extractors. <br>
-                    Pureness 99.9%
-                    </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">50$</button>
-                      </div>
-                      <small class="text-muted"></small>
-                    </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="/Images/Morfin.jpg" width="100%" height="225"
+                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em"></text></img>
+              <div class="card-body">
+                <p class="card-text">Morphine<br>The second finest Morphine you can find here.
+                  It is extracted by our proffesional Opium Extractors. <br>
+                  Its good for the low budget buyers. <br>
+                  Pureness 89.9%
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">20$</button>
                   </div>
+                  
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <img class="bd-placeholder-img card-img-top" src="Morfin.jpg" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
-                  <div class="card-body">
-                    <p class="card-text">Morphine<br>The second finest Morphine you can find here. 
-                    It is extracted by our proffesional Opium Extractors. <br>
-                    Its good for the low budget buyers. <br>
-                    Pureness 89.9%
-                    </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">20$</button>
-                      </div>
-                      <small class="text-muted"></small>
-                    </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="/Images/Morfin3.jpg" width="100%" height="225"
+                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em"></text></img>
+              <div class="card-body">
+                <p class="card-text">Morphine<br>Good for the Extremly low budget. A great alternative.<br>
+                  It is extracted by our proffesional Opium Extractors. <br>
+                  Pureness 79.9%
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Info</button>
                   </div>
+                  
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <img class="bd-placeholder-img card-img-top" src="Morfin3.jpg" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
-                  <div class="card-body">
-                    <p class="card-text">Morphine<br>Good for the Extremly low budget. A great alternative.<br> 
-                    It is extracted by our proffesional Opium Extractors. <br>
-                    Pureness 79.9%
-                    </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Info</button>
-                      </div>
-                      <small class="text-muted"></small>
-                    </div>
+            </div>
+          </div>
+
+          <div class="col-md-4" id="Heroin">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="/Images/Heroin.jpg" width="100%" height="225"
+                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em"></text></img>
+              <div class="card-body">
+                <p class="card-text">Herion<br>The finest most refined Heroin you can find.<br>
+                  It is extracted by our proffesional Opium Extractors. <br>
+                  Pureness 99.9%
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">150$</button>
                   </div>
+                  
                 </div>
               </div>
-      
-              <div class="col-md-4" id="Heroin">
-                <div class="card mb-4 shadow-sm" >
-                  <img class="bd-placeholder-img card-img-top" src="Heroin.jpg" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>                  <div class="card-body">
-                    <p class="card-text">Herion<br>The finest most refined Heroin you can find.<br> 
-                      It is extracted by our proffesional Opium Extractors. <br>
-                      Pureness 99.9%
-                      </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">150$</button>
-                      </div>
-                      <small class="text-muted">9 mins</small>
-                    </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="/Images/Heroin2.jpg" width="100%" height="225"
+                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em"></text></img>
+              <div class="card-body">
+                <p class="card-text">Heroin<br>The second finest Heroin you can find here.
+                  It is extracted by our proffesional Opium Extractors. <br>
+                  Its good for the low budget buyers. <br>
+                  Pureness 89.9%
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">100$</button>
                   </div>
+                  
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <img class="bd-placeholder-img card-img-top" src="Heroin2.jpg" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>                  <div class="card-body">
-                    <p class="card-text">Heroin<br>The second finest Heroin you can find here. 
-                      It is extracted by our proffesional Opium Extractors. <br>
-                      Its good for the low budget buyers. <br>
-                      Pureness 89.9%
-                      </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">100$</button>
-                      </div>
-                      <small class="text-muted">9 mins</small>
-                    </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="/Images/Heroin3.jpg" width="100%" height="225"
+                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em"></text></img>
+              <div class="card-body">
+                <p class="card-text">Heroin<br>Good for the Extremly low budget. A great alternative.<br>
+                  It is extracted by our proffesional Opium Extractors. <br>
+                  Pureness 79.9%
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">50$</button>
                   </div>
+                  
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <img class="bd-placeholder-img card-img-top" src="Heroin3.jpg" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>                  <div class="card-body">
-                    <p class="card-text">Heroin<br>Good for the Extremly low budget. A great alternative.<br> 
-                      It is extracted by our proffesional Opium Extractors. <br>
-                      Pureness 79.9%
-                      </p>                   
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">50$</button>
-                      </div>
-                      <small class="text-muted">9 mins</small>
-                    </div>
+            </div>
+          </div>
+
+          <div class="col-md-4" id="Papaverin">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="/Images/papaverin.jpg" width="100%" height="225"
+                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em"></text></img>
+              <div class="card-body">
+                <p class="card-text">Papaverin<br>A medicine with ralaxing effect<br>
+                  It is extracted and made by our proffesional Opium Extractors. <br>
+                  Pureness 99.9%
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                   </div>
+                  
                 </div>
               </div>
-      
-              <div class="col-md-4" id="Papaverin">
-                <div class="card mb-4 shadow-sm">
-                  <img class="bd-placeholder-img card-img-top" src="papaverin.jpg" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>                  <div class="card-body">
-                    <p class="card-text">Papaverin<br>A medicine with ralaxing effect<br> 
-                      It is extracted and made by our proffesional Opium Extractors. <br>
-                      Pureness 99.9%
-                      </p> 
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                      </div>
-                      <small class="text-muted">9 mins</small>
-                    </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="/Images/papaverin2.jpg" width="100%" height="225"
+                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em"></text></img>
+              <div class="card-body">
+                <p class="card-text">Papaverin<br>A medicine with ralaxing effect<br>
+                  It is extracted and made by our proffesional Opium Extractors. <br>
+                  Pureness 89.9%
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                   </div>
+                  
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <img class="bd-placeholder-img card-img-top" src="papaverin2.jpg" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>                  <div class="card-body">
-                    <p class="card-text">Papaverin<br>A medicine with ralaxing effect<br> 
-                      It is extracted and made by our proffesional Opium Extractors. <br>
-                      Pureness 89.9%
-                      </p> 
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                      </div>
-                      <small class="text-muted">9 mins</small>
-                    </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="/Images/papaverin3.jpg" width="100%" height="225"
+                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em"></text></img>
+              <div class="card-body">
+                <p class="card-text">Papaverin<br>A medicine with ralaxing effect<br>
+                  It is extracted and made by our proffesional Opium Extractors. <br>
+                  Pureness 79.9%
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                   </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <img class="bd-placeholder-img card-img-top" src="papaverin3.jpg" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>                  <div class="card-body">
-                    <p class="card-text">Papaverin<br>A medicine with ralaxing effect<br> 
-                      It is extracted and made by our proffesional Opium Extractors. <br>
-                      Pureness 79.9%
-                      </p> 
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                      </div>
-                      <small class="text-muted">9 mins</small>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>
           </div>
         </div>
-      
-      </main>
-      
-      <footer style="height: 20vh; display: flex; align-items: center;" class="textfield">
-        <div class="container">
-          <p class="float-right">
-            <a href="#">Back to top</a>
-          </p>
-          <div>
-            <p >No drugs here, it is only a proof of concept. But please feel free to share the beatiful concept.</p>
-            <p >Want drugs? Don't! Go to school kids! <a href="https://www.coolmathgames.com/">Visit the wesite coolmathgames instead!</a></p>
-          </div>
-        </div>
-      </footer>
+      </div>
+    </div>
+
+  </main>
+
+  <footer style="height: 20vh; display: flex; align-items: center;" class="textfield">
+    <div class="container">
+      <p class="float-right">
+        <a href="#">Back to top</a>
+      </p>
+      <div>
+        <p>No drugs here, it is only a proof of concept. But please feel free to share the beatiful concept.</p>
+        <p>Want drugs? Don't! Go to school kids! <a href="https://www.coolmathgames.com/">Visit the wesite coolmathgames
+            instead!</a></p>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
